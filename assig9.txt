@@ -1,0 +1,43 @@
+ANS 1
+	The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform.
+
+ANS 2
+	The Spring Framework is an open-source framework for building enterprise Java applications. Spring aims to simplify the complex and cumbersome enterprise Java application development process by offering a framework that includes technologies such as:
+
+Aspect-oriented programming (AOP)
+Dependency injection (DI)
+Plain Old Java Object (POJO)
+
+ANS 3
+	Spring configuration file is a file with . xml extension and the file contains information about the classes and interfaces and their dependencies. Using this file the spring container controls the life cycle of a spring bean and also Dependency Injection is achieved.
+
+ANS 4
+	IoC container is a framework for implementing automated dependency injection. It contains object creation for the longer ways to use and injects dependencies within the class.
+
+ANS 5
+	In object-oriented programming (OOP) software design, dependency injection is the process of supplying a resource that a given piece of code requires. The required resource, which is often a component of the application itself, is called a dependency.
+
+ANS 6
+	Constructor-based DI fixes the order in which the dependencies need to be injected. Setter-based DI helps us to inject the dependency only when it is required, as opposed to requiring it at construction time. Spring code generation library doesn't support constructor injection so it will not be able to create proxy.
+
+ANS 7
+	Spring Bean is nothing special, any object in the Spring framework that we initialize through Spring container is called Spring Bean. Any normal Java POJO class can be a Spring Bean if it's configured to be initialized via container by providing configuration metadata information
+
+ANS 8
+	The latest version of the Spring framework defines 6 types of scopes:
+singleton.
+prototype.
+request.
+session.
+application.
+websocket.
+
+ANS 9
+	Autowiring is of 4 types
+1) byName.
+2) byType.
+3) constructor.
+4) autodetect.
+
+ANS 10
+	Bean life cycle is managed by the spring container. When we run the program then, first of all, the spring container gets started. After that, the container creates the instance of a bean as per the request, and then dependencies are injected. And finally, the bean is destroyed when the spring container is closed.
